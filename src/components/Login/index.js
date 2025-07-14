@@ -94,6 +94,18 @@ class Login extends Component {
           </div>
           {loginError && <p className="error-msg">{loginErrorMsg}</p>}
           <LoginButton type="submit">Login</LoginButton>
+          <div className="passwords-section">
+            <p>
+              Premium User:
+              <br /> UserName: rahul
+              <br /> Password: rahul@2021
+            </p>
+            <p>
+              Not Premium
+              <br /> User: UserName: raja
+              <br /> Password: raja@2021
+            </p>
+          </div>
         </form>
       </div>
     )
